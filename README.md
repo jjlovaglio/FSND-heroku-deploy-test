@@ -27,3 +27,5 @@ if the previous command outputs an error, try `git push heroku HEAD:master`
 ## Run Migrations
 Once your app is deployed, run migrations by running:  
 `heroku run python manage.py db upgrade --app <name-of-your-application>`
+
+### url of deployed app can be found on settings section of app in the heroku platform
