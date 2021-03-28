@@ -1,6 +1,7 @@
 # flask-postgres-heroku-deploy-template
-## from Udacity's Full Stack Nano Degree deployment section
-Working example of deployment of a Flask app + Postgres db with [heroku](https://dashboard.heroku.com)
+from Udacity's Full Stack Nano Degree deployment section
+
+This is a working example of deployment of a Flask app + Postgres db with [heroku](https://dashboard.heroku.com)
 
 ## Installation
 
