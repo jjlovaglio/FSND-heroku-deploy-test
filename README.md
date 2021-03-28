@@ -1,13 +1,13 @@
 # FSND-heroku-deploy-test
-Working example of deployment of a Flask app + Postgres db with heroku
+Working example of deployment of a Flask app + Postgres db with [heroku](https://dashboard.heroku.com)
 
 ## Installation
 
 `$ brew install heroku <name-of-heroku-app>`
 
-## Configure environment variables in Heroku
+## Configure environment variables in [heroku](https://dashboard.heroku.com) dashboard
 
-1. got to project settings 
+1. go to project settings 
 2. click `Reveal Config Vars`
 3. define variables as contained in *setup.sh* file
 
@@ -28,4 +28,4 @@ if the previous command outputs an error, try `git push heroku HEAD:master`
 Once your app is deployed, run migrations by running:  
 `heroku run python manage.py db upgrade --app <name-of-your-application>`
 
-### url of deployed app can be found on settings section of app in the heroku platform
+### url of deployed app can be found on settings section of app in the [heroku](https://dashboard.heroku.com) dashboard
